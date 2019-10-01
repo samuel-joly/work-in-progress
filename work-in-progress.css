@@ -1,16 +1,3 @@
-img 
-{
-	width:300px;
-	border-radius:4px;
-}
-
-h1, p, li
-{
-	width:500px;
-	margin:auto;
-	text-align:center;
-	font-family:"Futur";
-}
 
 @font-face 
 {
@@ -18,12 +5,67 @@ h1, p, li
 	src: url("futur.ttf");
 }
 
-#full
+#main
 {
-	overflow:hidden;
+	margin-top:20%;
+}
+
+h1
+{
+	width:500px;
+	margin:auto;
+	text-align:center;
+	font-family:"Futur";
+}
+
+p
+
+{
+	position:relative;
+	bottom:23px;
 }
 
 ul
 {
-		list
+	list-style:none;
+	font-family:"Futur";
+	margin-left:-20px;
+	position:relative;
+	bottom:23px;
+}
+
+li
+{
+	position:relative;
+	animation-name:goUp;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+}
+
+#scroller
+{
+	width:530px;
+	overflow:hidden;
+	font-family:"Futur";
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	font-size:1.6em;
+	height:27px;
+}
+
+
+@keyframes goUp
+{
+	0% {bottom:0px;}
+	10%{bottom:24.5px;}
+	20%{bottom:49px;}
+	30%{bottom:73.5px;}
+	40%{bottom:98px;}
+	50%{bottom:120.5px;}
+	60%{bottom:145px;}
+	70%{bottom:169.5px;}
+	80%{bottom:194px;}
+	90%{bottom:218.5px;}
+	100%{bottom:244px;}
 }
