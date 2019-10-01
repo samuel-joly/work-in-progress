@@ -1,3 +1,7 @@
+body
+{
+	background-image:url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wonderfulengineering.com%2Fwp-content%2Fuploads%2F2013%2F12%2Fmetal-wallpapers-15.jpg&f=1&nofb=1');
+}
 
 @font-face 
 {
@@ -12,26 +16,30 @@
 
 h1
 {
-	width:500px;
+	width:750px;
 	margin:auto;
 	text-align:center;
 	font-family:"Futur";
+	text-shadow:3px 3px 5px grey;
+	font-size:4em;
 }
 
 p
 
 {
 	position:relative;
-	bottom:23px;
+	bottom:43px;
+	text-shadow:3px 3px 5px grey;
 }
 
 ul
 {
 	list-style:none;
 	font-family:"Futur";
+	text-shadow:3px 3px 3px grey;
 	margin-left:-20px;
 	position:relative;
-	bottom:23px;
+	bottom:43px;
 }
 
 li
@@ -44,28 +52,28 @@ li
 
 #scroller
 {
-	width:530px;
+	font-size:3em;
+	width:1000px;
 	overflow:hidden;
 	font-family:"Futur";
 	display:flex;
 	flex-direction:row;
 	margin:auto;
-	font-size:1.6em;
-	height:27px;
+	height:45px;
 }
 
 
 @keyframes goUp
 {
 	0% {bottom:0px;}
-	10%{bottom:24.5px;}
-	20%{bottom:49px;}
-	30%{bottom:73.5px;}
-	40%{bottom:98px;}
-	50%{bottom:120.5px;}
-	60%{bottom:145px;}
-	70%{bottom:169.5px;}
-	80%{bottom:194px;}
-	90%{bottom:218.5px;}
-	100%{bottom:244px;}
+	10%{bottom:44px;}
+	20%{bottom:90px;}
+	30%{bottom:135px;}
+	40%{bottom:185px;}
+	50%{bottom:226px;}
+	60%{bottom:275px;}
+	70%{bottom:314px;}
+	80%{bottom:360px;}
+	90%{bottom:405px;}
+	100%{bottom:453px;}
 }
