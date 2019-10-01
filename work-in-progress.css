@@ -1,1 +1,29 @@
- 
+img 
+{
+	width:300px;
+	border-radius:4px;
+}
+
+h1, p
+{
+	width:500px;
+	margin:auto;
+	text-align:center;
+	font-family:"Futur";
+}
+
+h1
+{
+	margin-top:15%;
+}
+
+
+p
+{
+	font-size:1.5em;
+}
+
+@font-face {
+	font-family: "Futur";
+	src: url("futur.ttf");
+}
