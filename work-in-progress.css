@@ -1,0 +1,131 @@
+body
+{
+	background-image:url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wonderfulengineering.com%2Fwp-content%2Fuploads%2F2013%2F12%2Fmetal-wallpapers-15.jpg&f=1&nofb=1');
+}
+
+@font-face 
+{
+	font-family: "Futur";
+	src: url("futur.ttf");
+
+}
+
+@font-face
+{
+	font-family:"Dog";
+	src:url('Dog.ttf');
+}
+
+@font-face
+{
+	
+	font-family:"Chomsky";
+	src:url('Chomsky.otf');
+}
+
+#main
+{
+	margin-top:20%;
+}
+
+h1
+{
+	width:750px;
+	margin:auto;
+	text-align:center;
+	font-family:"Futur";
+	text-shadow:3px 3px 5px grey;
+	font-size:4em;
+}
+
+p
+
+{
+	position:relative;
+	bottom:43px;
+	text-shadow:3px 3px 5px grey;
+}
+
+ul
+{
+	list-style:none;
+	font-family:"Futur";
+	text-shadow:3px 3px 3px grey;
+	margin-left:-20px;
+	position:relative;
+	bottom:43px;
+}
+
+li
+{
+	position:relative;
+	animation-name:goUp;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	margin:0px;
+}
+
+#scroller
+{
+	font-size:3em;
+	width:1000px;
+	overflow:hidden;
+	font-family:"Futur";
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	height:50px;
+}
+
+strong
+{
+	color:orange;
+}
+
+
+@keyframes goUp
+{
+	0% {bottom:0px;}
+	10%{bottom:45px;}
+	20%{bottom:90px;}
+	30%{bottom:142px;}
+	40%{bottom:187px;}
+	50%{bottom:247px;}
+	60%{bottom:292px;}
+	70%{bottom:337px;}
+	80%{bottom:383px;}
+	90%{bottom:428px;}
+	100%{bottom:472px;}
+}
+
+
+.red
+{
+	color:red;
+}
+
+.orange
+{
+	color:orange;
+}
+
+.white
+{
+	color:white;
+}
+
+
+.grey
+{
+		color:grey;
+}
+
+.dogFont
+{
+	font-family:"Dog";
+}
+
+.font
+{
+	font-family:"Chomsky";
+}
