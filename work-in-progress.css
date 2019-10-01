@@ -48,6 +48,7 @@ li
 	animation-name:goUp;
 	animation-duration:20s;
 	animation-iteration-count:infinite;
+	margin:0px;
 }
 
 #scroller
@@ -59,21 +60,21 @@ li
 	display:flex;
 	flex-direction:row;
 	margin:auto;
-	height:45px;
+	height:50px;
 }
 
 
 @keyframes goUp
 {
 	0% {bottom:0px;}
-	10%{bottom:44px;}
+	10%{bottom:45px;}
 	20%{bottom:90px;}
 	30%{bottom:135px;}
-	40%{bottom:185px;}
-	50%{bottom:226px;}
-	60%{bottom:275px;}
-	70%{bottom:314px;}
+	40%{bottom:180px;}
+	50%{bottom:225px;}
+	60%{bottom:270px;}
+	70%{bottom:315px;}
 	80%{bottom:360px;}
 	90%{bottom:405px;}
-	100%{bottom:453px;}
+	100%{bottom:450px;}
 }
